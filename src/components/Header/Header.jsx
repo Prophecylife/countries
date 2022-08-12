@@ -28,8 +28,9 @@ export const Header = () => {
           </HeaderWrapper>
         </Container>
       </NavBar>
-
-      <Outlet />
+      <main>
+        <Outlet />
+      </main>
     </>
   );
 };
